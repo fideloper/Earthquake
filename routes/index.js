@@ -14,6 +14,22 @@ exports.index = function(req, res){
 	twit.stream('statuses/filter', {'track':'earthquake'}, function(stream) {
     	stream.on('data', function (data) {
 			console.log(data);
+            //To be erased
+            var exec = require("child_process").exec,
+            fs = require('fs');
+
+            fs.writeFile('tmp/formatted.txt', JSON.stringify(data), function (err) {
+                if (err) throw err;
+                console.log('Written');
+                 exec("cat tmp/formatted.txt | python -mjson.tool >> tmp/actually_formatted.txt",function(error, stdout, stderr){
+                     if(error) { console.log('error', error); }
+                     console.log(stdout, stderr);
+                 });
+            });
+
+            
+            //End To be erased
+
     	}).on('error', function(err, data) {
     		console.log(err, data);
     	});

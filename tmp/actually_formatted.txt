@@ -1,0 +1,741 @@
+{
+    "contributors": null, 
+    "coordinates": null, 
+    "created_at": "Sun Apr 15 19:18:47 +0000 2012", 
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    15, 
+                    26
+                ], 
+                "text": "earthquake"
+            }
+        ], 
+        "urls": [], 
+        "user_mentions": [
+            {
+                "id": 52784116, 
+                "id_str": "52784116", 
+                "indices": [
+                    3, 
+                    13
+                ], 
+                "name": "Appleoten", 
+                "screen_name": "appleoten"
+            }
+        ]
+    }, 
+    "favorited": false, 
+    "geo": null, 
+    "id": 191606513939390460, 
+    "id_str": "191606513939390464", 
+    "in_reply_to_screen_name": null, 
+    "in_reply_to_status_id": null, 
+    "in_reply_to_status_id_str": null, 
+    "in_reply_to_user_id": null, 
+    "in_reply_to_user_id_str": null, 
+    "place": null, 
+    "retweet_count": 1, 
+    "retweeted": false, 
+    "retweeted_status": {
+        "contributors": null, 
+        "coordinates": null, 
+        "created_at": "Sun Apr 15 19:05:35 +0000 2012", 
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        0, 
+                        11
+                    ], 
+                    "text": "earthquake"
+                }
+            ], 
+            "urls": [
+                {
+                    "display_url": "bit.ly/INSTjL", 
+                    "expanded_url": "http://bit.ly/INSTjL", 
+                    "indices": [
+                        112, 
+                        132
+                    ], 
+                    "url": "http://t.co/mDMf6VxI"
+                }
+            ], 
+            "user_mentions": []
+        }, 
+        "favorited": false, 
+        "geo": null, 
+        "id": 191603190813298700, 
+        "id_str": "191603190813298688", 
+        "in_reply_to_screen_name": null, 
+        "in_reply_to_status_id": null, 
+        "in_reply_to_status_id_str": null, 
+        "in_reply_to_user_id": null, 
+        "in_reply_to_user_id_str": null, 
+        "place": null, 
+        "possibly_sensitive": false, 
+        "possibly_sensitive_editable": true, 
+        "retweet_count": 1, 
+        "retweeted": false, 
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+        "text": "#earthquake: M 3.0 - Middle-East Lebanon Mezher: Preliminary Earthquake Report: Date/Time: 15.04.2012 15:43:... http://t.co/mDMf6VxI", 
+        "truncated": false, 
+        "user": {
+            "contributors_enabled": false, 
+            "created_at": "Wed Jul 01 17:07:36 +0000 2009", 
+            "default_profile": false, 
+            "default_profile_image": false, 
+            "description": "Enjoy your life while you can", 
+            "favourites_count": 698, 
+            "follow_request_sent": null, 
+            "followers_count": 34, 
+            "following": null, 
+            "friends_count": 138, 
+            "geo_enabled": false, 
+            "id": 52784116, 
+            "id_str": "52784116", 
+            "is_translator": false, 
+            "lang": "en", 
+            "listed_count": 1, 
+            "location": "Bangkok", 
+            "name": "Appleoten", 
+            "notifications": null, 
+            "profile_background_color": "ACDED6", 
+            "profile_background_image_url": "http://a0.twimg.com/images/themes/theme18/bg.gif", 
+            "profile_background_image_url_https": "https://si0.twimg.com/images/themes/theme18/bg.gif", 
+            "profile_background_tile": false, 
+            "profile_image_url": "http://a0.twimg.com/profile_images/1847393362/0QpYhbhV_normal", 
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/1847393362/0QpYhbhV_normal", 
+            "profile_link_color": "038543", 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "profile_sidebar_fill_color": "F6F6F6", 
+            "profile_text_color": "333333", 
+            "profile_use_background_image": true, 
+            "protected": false, 
+            "screen_name": "appleoten", 
+            "show_all_inline_media": false, 
+            "statuses_count": 1809, 
+            "time_zone": "Bangkok", 
+            "url": null, 
+            "utc_offset": 25200, 
+            "verified": false
+        }
+    }, 
+    "source": "web", 
+    "text": "RT @appleoten: #earthquake: M 3.0 - Middle-East Lebanon Mezher: Preliminary Earthquake Report: Date/Time: 15.04.2012 15:43:... http://t. ...", 
+    "truncated": true, 
+    "user": {
+        "contributors_enabled": false, 
+        "created_at": "Sat Jul 18 13:10:40 +0000 2009", 
+        "default_profile": false, 
+        "default_profile_image": false, 
+        "description": "To all my brave sisters and brothers who are fighting for \u24b6 TRUECHANGE(#revolt)! #peace #love #freedom and #JUSTICE for all, #anarchist #solidarity #classwar ", 
+        "favourites_count": 2762, 
+        "follow_request_sent": null, 
+        "followers_count": 193, 
+        "following": null, 
+        "friends_count": 81, 
+        "geo_enabled": false, 
+        "id": 57928733, 
+        "id_str": "57928733", 
+        "is_translator": false, 
+        "lang": "en", 
+        "listed_count": 9, 
+        "location": "Jaffa", 
+        "name": "toofikb", 
+        "notifications": null, 
+        "profile_background_color": "606161", 
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/25172155/default.jpg", 
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/25172155/default.jpg", 
+        "profile_background_tile": true, 
+        "profile_image_url": "http://a0.twimg.com/profile_images/455974886/revolutionary-avatar_normal.png", 
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/455974886/revolutionary-avatar_normal.png", 
+        "profile_link_color": "FF3300", 
+        "profile_sidebar_border_color": "86A4A6", 
+        "profile_sidebar_fill_color": "545757", 
+        "profile_text_color": "333333", 
+        "profile_use_background_image": true, 
+        "protected": false, 
+        "screen_name": "toofikb", 
+        "show_all_inline_media": false, 
+        "statuses_count": 7485, 
+        "time_zone": "Jerusalem", 
+        "url": "http://www.wix.com/rad10k/fm", 
+        "utc_offset": 7200, 
+        "verified": false
+    }
+}
+{
+    "contributors": null, 
+    "coordinates": null, 
+    "created_at": "Sun Apr 15 19:24:07 +0000 2012", 
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    17, 
+                    25
+                ], 
+                "text": "Tsunami"
+            }, 
+            {
+                "indices": [
+                    48, 
+                    59
+                ], 
+                "text": "earthquake"
+            }, 
+            {
+                "indices": [
+                    64, 
+                    74
+                ], 
+                "text": "Indonesia"
+            }
+        ], 
+        "urls": [], 
+        "user_mentions": [
+            {
+                "id": 5402612, 
+                "id_str": "5402612", 
+                "indices": [
+                    3, 
+                    15
+                ], 
+                "name": "BBC Breaking News", 
+                "screen_name": "BBCBreaking"
+            }
+        ]
+    }, 
+    "favorited": false, 
+    "geo": null, 
+    "id": 191607856812929020, 
+    "id_str": "191607856812929025", 
+    "in_reply_to_screen_name": null, 
+    "in_reply_to_status_id": null, 
+    "in_reply_to_status_id_str": null, 
+    "in_reply_to_user_id": null, 
+    "in_reply_to_user_id_str": null, 
+    "place": null, 
+    "retweet_count": 3475, 
+    "retweeted": false, 
+    "retweeted_status": {
+        "contributors": null, 
+        "coordinates": null, 
+        "created_at": "Wed Apr 11 10:08:42 +0000 2012", 
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        0, 
+                        8
+                    ], 
+                    "text": "Tsunami"
+                }, 
+                {
+                    "indices": [
+                        31, 
+                        42
+                    ], 
+                    "text": "earthquake"
+                }, 
+                {
+                    "indices": [
+                        47, 
+                        57
+                    ], 
+                    "text": "Indonesia"
+                }
+            ], 
+            "urls": [
+                {
+                    "display_url": "bbc.in/I21zno", 
+                    "expanded_url": "http://bbc.in/I21zno", 
+                    "indices": [
+                        119, 
+                        139
+                    ], 
+                    "url": "http://t.co/eYcUQflR"
+                }
+            ], 
+            "user_mentions": []
+        }, 
+        "favorited": false, 
+        "geo": null, 
+        "id": 190018529687371780, 
+        "id_str": "190018529687371776", 
+        "in_reply_to_screen_name": null, 
+        "in_reply_to_status_id": null, 
+        "in_reply_to_status_id_str": null, 
+        "in_reply_to_user_id": null, 
+        "in_reply_to_user_id_str": null, 
+        "place": null, 
+        "possibly_sensitive": false, 
+        "possibly_sensitive_editable": true, 
+        "retweet_count": 3475, 
+        "retweeted": false, 
+        "source": "<a href=\"http://www.bbc.co.uk/news/\" rel=\"nofollow\">BBC News</a>", 
+        "text": "#Tsunami \"less likely\" because #earthquake off #Indonesia moved horizontally, not vertically, USGS spokesman tells BBC http://t.co/eYcUQflR", 
+        "truncated": false, 
+        "user": {
+            "contributors_enabled": false, 
+            "created_at": "Sun Apr 22 14:42:37 +0000 2007", 
+            "default_profile": false, 
+            "default_profile_image": false, 
+            "description": "Breaking news alerts and updates from the BBC. For news, features, analysis follow @BBCWorld (our World edition) and @BBCNews (our UK edition).", 
+            "favourites_count": 0, 
+            "follow_request_sent": null, 
+            "followers_count": 2987726, 
+            "following": null, 
+            "friends_count": 2, 
+            "geo_enabled": false, 
+            "id": 5402612, 
+            "id_str": "5402612", 
+            "is_translator": false, 
+            "lang": "en", 
+            "listed_count": 58172, 
+            "location": "London, UK", 
+            "name": "BBC Breaking News", 
+            "notifications": null, 
+            "profile_background_color": "ffffff", 
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/160789431/bbc_twitter_template1280b.jpg", 
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/160789431/bbc_twitter_template1280b.jpg", 
+            "profile_background_tile": false, 
+            "profile_image_url": "http://a0.twimg.com/profile_images/1143158124/BBC_avatar_normal.jpg", 
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/1143158124/BBC_avatar_normal.jpg", 
+            "profile_link_color": "1f527b", 
+            "profile_sidebar_border_color": "cccccc", 
+            "profile_sidebar_fill_color": "ffffff", 
+            "profile_text_color": "5a5a5a", 
+            "profile_use_background_image": true, 
+            "protected": false, 
+            "screen_name": "BBCBreaking", 
+            "show_all_inline_media": false, 
+            "statuses_count": 5789, 
+            "time_zone": "London", 
+            "url": "http://www.bbc.co.uk/news", 
+            "utc_offset": 0, 
+            "verified": true
+        }
+    }, 
+    "source": "<a href=\"http://blackberry.com/twitter\" rel=\"nofollow\">Twitter for BlackBerry\u00ae</a>", 
+    "text": "RT @BBCBreaking: #Tsunami \"less likely\" because #earthquake off #Indonesia moved horizontally, not vertically, USGS spokesman tells BBC  ...", 
+    "truncated": true, 
+    "user": {
+        "contributors_enabled": false, 
+        "created_at": "Wed Feb 16 09:06:59 +0000 2011", 
+        "default_profile": false, 
+        "default_profile_image": false, 
+        "description": "Follback? Just mention ;;) | pin 2107F423 | lovelove RDS (\u0254\u02c6 \u00b3(\u00b4\u25bd`c)\u2665  ", 
+        "favourites_count": 29, 
+        "follow_request_sent": null, 
+        "followers_count": 373, 
+        "following": null, 
+        "friends_count": 351, 
+        "geo_enabled": false, 
+        "id": 252974472, 
+        "id_str": "252974472", 
+        "is_translator": false, 
+        "lang": "en", 
+        "listed_count": 0, 
+        "location": "", 
+        "name": "Ezra arvi erliana", 
+        "notifications": null, 
+        "profile_background_color": "131516", 
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/458687520/ezraaaaa.jpg", 
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/458687520/ezraaaaa.jpg", 
+        "profile_background_tile": true, 
+        "profile_image_url": "http://a0.twimg.com/profile_images/2052901752/Ezra_normal.jpg", 
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/2052901752/Ezra_normal.jpg", 
+        "profile_link_color": "009999", 
+        "profile_sidebar_border_color": "eeeeee", 
+        "profile_sidebar_fill_color": "efefef", 
+        "profile_text_color": "333333", 
+        "profile_use_background_image": true, 
+        "protected": false, 
+        "screen_name": "ezraarvi", 
+        "show_all_inline_media": false, 
+        "statuses_count": 12132, 
+        "time_zone": "Pacific Time (US & Canada)", 
+        "url": null, 
+        "utc_offset": -28800, 
+        "verified": false
+    }
+}
+{
+    "contributors": null, 
+    "coordinates": null, 
+    "created_at": "Sun Apr 15 19:24:08 +0000 2012", 
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    0, 
+                    17
+                ], 
+                "text": "20SongsOnShuffle"
+            }
+        ], 
+        "urls": [], 
+        "user_mentions": []
+    }, 
+    "favorited": false, 
+    "geo": null, 
+    "id": 191607861439250430, 
+    "id_str": "191607861439250432", 
+    "in_reply_to_screen_name": null, 
+    "in_reply_to_status_id": null, 
+    "in_reply_to_status_id_str": null, 
+    "in_reply_to_user_id": null, 
+    "in_reply_to_user_id_str": null, 
+    "place": null, 
+    "retweet_count": 0, 
+    "retweeted": false, 
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
+    "text": "#20SongsOnShuffle labrinth - earthquake", 
+    "truncated": false, 
+    "user": {
+        "contributors_enabled": false, 
+        "created_at": "Sun Oct 10 17:59:56 +0000 2010", 
+        "default_profile": false, 
+        "default_profile_image": false, 
+        "description": "Your friendly neighborhood fatman. ", 
+        "favourites_count": 1, 
+        "follow_request_sent": null, 
+        "followers_count": 48, 
+        "following": null, 
+        "friends_count": 129, 
+        "geo_enabled": true, 
+        "id": 200944462, 
+        "id_str": "200944462", 
+        "is_translator": false, 
+        "lang": "en", 
+        "listed_count": 0, 
+        "location": "Hereford ", 
+        "name": "Dom Hughes", 
+        "notifications": null, 
+        "profile_background_color": "C0DEED", 
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/160154515/IMG_0166__Large_.jpg", 
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/160154515/IMG_0166__Large_.jpg", 
+        "profile_background_tile": false, 
+        "profile_image_url": "http://a0.twimg.com/profile_images/2036811888/beetlepp_normal.png", 
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/2036811888/beetlepp_normal.png", 
+        "profile_link_color": "0084B4", 
+        "profile_sidebar_border_color": "C0DEED", 
+        "profile_sidebar_fill_color": "DDEEF6", 
+        "profile_text_color": "333333", 
+        "profile_use_background_image": true, 
+        "protected": false, 
+        "screen_name": "SlimXLVI", 
+        "show_all_inline_media": false, 
+        "statuses_count": 1183, 
+        "time_zone": "London", 
+        "url": "http://slim46.lightbox.com/", 
+        "utc_offset": 0, 
+        "verified": false
+    }
+}
+{
+    "contributors": null, 
+    "coordinates": null, 
+    "created_at": "Sun Apr 15 19:24:17 +0000 2012", 
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    48, 
+                    79
+                ], 
+                "text": "oneofthefunniestjokesieversaid"
+            }
+        ], 
+        "urls": [], 
+        "user_mentions": []
+    }, 
+    "favorited": false, 
+    "geo": null, 
+    "id": 191607897287962620, 
+    "id_str": "191607897287962626", 
+    "in_reply_to_screen_name": null, 
+    "in_reply_to_status_id": null, 
+    "in_reply_to_status_id_str": null, 
+    "in_reply_to_user_id": null, 
+    "in_reply_to_user_id_str": null, 
+    "place": null, 
+    "retweet_count": 0, 
+    "retweeted": false, 
+    "source": "<a href=\"http://mobile.twitter.com\" rel=\"nofollow\">Mobile Web</a>", 
+    "text": "EARTHQUAKE :O ... Haha no its just nuha walking #oneofthefunniestjokesieversaid .", 
+    "truncated": false, 
+    "user": {
+        "contributors_enabled": false, 
+        "created_at": "Fri Oct 23 10:36:33 +0000 2009", 
+        "default_profile": false, 
+        "default_profile_image": false, 
+        "description": "YOU ONLY LIVE ONCE 3 \r\n#teamfollowback #macmiller #ryansheckler", 
+        "favourites_count": 8, 
+        "follow_request_sent": null, 
+        "followers_count": 103, 
+        "following": null, 
+        "friends_count": 191, 
+        "geo_enabled": true, 
+        "id": 84556637, 
+        "id_str": "84556637", 
+        "is_translator": false, 
+        "lang": "en", 
+        "listed_count": 0, 
+        "location": "Saudi Arabia - Dhahran ", 
+        "name": "Meriam Maalej \u264a", 
+        "notifications": null, 
+        "profile_background_color": "131516", 
+        "profile_background_image_url": "http://a0.twimg.com/images/themes/theme14/bg.gif", 
+        "profile_background_image_url_https": "https://si0.twimg.com/images/themes/theme14/bg.gif", 
+        "profile_background_tile": true, 
+        "profile_image_url": "http://a0.twimg.com/profile_images/2101559796/DSC00816_normal.jpg", 
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/2101559796/DSC00816_normal.jpg", 
+        "profile_link_color": "009999", 
+        "profile_sidebar_border_color": "eeeeee", 
+        "profile_sidebar_fill_color": "efefef", 
+        "profile_text_color": "333333", 
+        "profile_use_background_image": true, 
+        "protected": false, 
+        "screen_name": "MeriamLikeAboss", 
+        "show_all_inline_media": true, 
+        "statuses_count": 730, 
+        "time_zone": "Quito", 
+        "url": "http://b0rn-y0ung.tumblr.com/", 
+        "utc_offset": -18000, 
+        "verified": false
+    }
+}
+{
+    "contributors": null, 
+    "coordinates": null, 
+    "created_at": "Sun Apr 15 19:24:21 +0000 2012", 
+    "entities": {
+        "hashtags": [], 
+        "urls": [
+            {
+                "display_url": "bit.ly/HJLpi2", 
+                "expanded_url": "http://bit.ly/HJLpi2", 
+                "indices": [
+                    73, 
+                    93
+                ], 
+                "url": "http://t.co/1frmZgm2"
+            }
+        ], 
+        "user_mentions": [
+            {
+                "id": 1344951, 
+                "id_str": "1344951", 
+                "indices": [
+                    3, 
+                    9
+                ], 
+                "name": "Wired", 
+                "screen_name": "wired"
+            }
+        ]
+    }, 
+    "favorited": false, 
+    "geo": null, 
+    "id": 191607915310886900, 
+    "id_str": "191607915310886912", 
+    "in_reply_to_screen_name": null, 
+    "in_reply_to_status_id": null, 
+    "in_reply_to_status_id_str": null, 
+    "in_reply_to_user_id": null, 
+    "in_reply_to_user_id_str": null, 
+    "place": null, 
+    "possibly_sensitive": false, 
+    "possibly_sensitive_editable": true, 
+    "retweet_count": 0, 
+    "retweeted": false, 
+    "source": "<a href=\"http://rep.licants.org\" rel=\"nofollow\">rep.licants.org</a>", 
+    "text": "RT @wired : Earthquake-Ready Table Can Withstand 2,204 Pounds of Impact  http://t.co/1frmZgm2", 
+    "truncated": false, 
+    "user": {
+        "contributors_enabled": false, 
+        "created_at": "Tue Oct 18 18:32:01 +0000 2011", 
+        "default_profile": false, 
+        "default_profile_image": false, 
+        "description": "A social media experiment of the Frankensteinian nature. Welcome to the Petri dish! ", 
+        "favourites_count": 0, 
+        "follow_request_sent": null, 
+        "followers_count": 102, 
+        "following": null, 
+        "friends_count": 440, 
+        "geo_enabled": false, 
+        "id": 393559825, 
+        "id_str": "393559825", 
+        "is_translator": false, 
+        "lang": "en", 
+        "listed_count": 2, 
+        "location": "", 
+        "name": "Alpha Version", 
+        "notifications": null, 
+        "profile_background_color": "a08aa8", 
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/348719897/pile_of_cogs_SM_cool.jpg", 
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/348719897/pile_of_cogs_SM_cool.jpg", 
+        "profile_background_tile": true, 
+        "profile_image_url": "http://a0.twimg.com/profile_images/1594970705/2ce8d17657047abbae6a227878bab774_m_normal.jpg", 
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/1594970705/2ce8d17657047abbae6a227878bab774_m_normal.jpg", 
+        "profile_link_color": "121110", 
+        "profile_sidebar_border_color": "000000", 
+        "profile_sidebar_fill_color": "f2f4f7", 
+        "profile_text_color": "706e70", 
+        "profile_use_background_image": true, 
+        "protected": false, 
+        "screen_name": "ChuckBot2000", 
+        "show_all_inline_media": true, 
+        "statuses_count": 1323, 
+        "time_zone": "Central Time (US & Canada)", 
+        "url": null, 
+        "utc_offset": -21600, 
+        "verified": false
+    }
+}
+{
+    "contributors": null, 
+    "coordinates": null, 
+    "created_at": "Sun Apr 15 19:24:25 +0000 2012", 
+    "entities": {
+        "hashtags": [], 
+        "urls": [], 
+        "user_mentions": [
+            {
+                "id": 37294527, 
+                "id_str": "37294527", 
+                "indices": [
+                    3, 
+                    15
+                ], 
+                "name": "Nola \u30b8\u30e3\u30b9\u30c6\u30a3\u30f3-\u30b3\u30d9\u30a4", 
+                "screen_name": "Jcsbeatpage"
+            }
+        ]
+    }, 
+    "favorited": false, 
+    "geo": null, 
+    "id": 191607932679487500, 
+    "id_str": "191607932679487489", 
+    "in_reply_to_screen_name": null, 
+    "in_reply_to_status_id": null, 
+    "in_reply_to_status_id_str": null, 
+    "in_reply_to_user_id": null, 
+    "in_reply_to_user_id_str": null, 
+    "place": null, 
+    "retweet_count": 13, 
+    "retweeted": false, 
+    "retweeted_status": {
+        "contributors": null, 
+        "coordinates": null, 
+        "created_at": "Sun Apr 15 19:21:07 +0000 2012", 
+        "entities": {
+            "hashtags": [], 
+            "urls": [], 
+            "user_mentions": []
+        }, 
+        "favorited": false, 
+        "geo": null, 
+        "id": 191607100181463040, 
+        "id_str": "191607100181463041", 
+        "in_reply_to_screen_name": null, 
+        "in_reply_to_status_id": null, 
+        "in_reply_to_status_id_str": null, 
+        "in_reply_to_user_id": null, 
+        "in_reply_to_user_id_str": null, 
+        "place": null, 
+        "retweet_count": 13, 
+        "retweeted": false, 
+        "source": "<a href=\"http://twitter.com/#!/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+        "text": "Phone vibrates at home.* Barely hear it. \n\n*Phone vibrates at school* Damn earthquake", 
+        "truncated": false, 
+        "user": {
+            "contributors_enabled": false, 
+            "created_at": "Sat May 02 22:08:06 +0000 2009", 
+            "default_profile": false, 
+            "default_profile_image": false, 
+            "description": "Hi Im Justin Im a VideoGame Music Producer check me out http://www.jcsbeatpage.com  Girlfriend -- @HiibaTahera  http://jcsbeatpage.tumblr.com/", 
+            "favourites_count": 333, 
+            "follow_request_sent": null, 
+            "followers_count": 15574, 
+            "following": null, 
+            "friends_count": 10534, 
+            "geo_enabled": true, 
+            "id": 37294527, 
+            "id_str": "37294527", 
+            "is_translator": false, 
+            "lang": "en", 
+            "listed_count": 82, 
+            "location": "Georgia/Norway", 
+            "name": "Nola \u30b8\u30e3\u30b9\u30c6\u30a3\u30f3-\u30b3\u30d9\u30a4", 
+            "notifications": null, 
+            "profile_background_color": "C0DEED", 
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/356113470/UnicornRainbow.jpg", 
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/356113470/UnicornRainbow.jpg", 
+            "profile_background_tile": true, 
+            "profile_image_url": "http://a0.twimg.com/profile_images/2124552549/41B_normal.jpg", 
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2124552549/41B_normal.jpg", 
+            "profile_link_color": "0084B4", 
+            "profile_sidebar_border_color": "C0DEED", 
+            "profile_sidebar_fill_color": "DDEEF6", 
+            "profile_text_color": "333333", 
+            "profile_use_background_image": true, 
+            "protected": false, 
+            "screen_name": "Jcsbeatpage", 
+            "show_all_inline_media": false, 
+            "statuses_count": 40760, 
+            "time_zone": "Pacific Time (US & Canada)", 
+            "url": "http://www.jcsbeatpage.com", 
+            "utc_offset": -28800, 
+            "verified": false
+        }
+    }, 
+    "source": "web", 
+    "text": "RT @Jcsbeatpage: Phone vibrates at home.* Barely hear it. \n\n*Phone vibrates at school* Damn earthquake", 
+    "truncated": false, 
+    "user": {
+        "contributors_enabled": false, 
+        "created_at": "Mon Aug 16 00:01:36 +0000 2010", 
+        "default_profile": false, 
+        "default_profile_image": false, 
+        "description": "Less than average teenaged girl, but what separates me is I've found my passion. Cheerleading. ", 
+        "favourites_count": 13, 
+        "follow_request_sent": null, 
+        "followers_count": 131, 
+        "following": null, 
+        "friends_count": 162, 
+        "geo_enabled": false, 
+        "id": 178894697, 
+        "id_str": "178894697", 
+        "is_translator": false, 
+        "lang": "en", 
+        "listed_count": 1, 
+        "location": "C-A-N-A-D-eh", 
+        "name": "Caitlin", 
+        "notifications": null, 
+        "profile_background_color": "352726", 
+        "profile_background_image_url": "http://a0.twimg.com/profile_background_images/292584729/SCORP.jpg", 
+        "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/292584729/SCORP.jpg", 
+        "profile_background_tile": true, 
+        "profile_image_url": "http://a0.twimg.com/profile_images/1400951448/Sweet_16_normal.jpg", 
+        "profile_image_url_https": "https://si0.twimg.com/profile_images/1400951448/Sweet_16_normal.jpg", 
+        "profile_link_color": "D02B55", 
+        "profile_sidebar_border_color": "829D5E", 
+        "profile_sidebar_fill_color": "99CC33", 
+        "profile_text_color": "3E4415", 
+        "profile_use_background_image": true, 
+        "protected": false, 
+        "screen_name": "CaitMcdaid", 
+        "show_all_inline_media": false, 
+        "statuses_count": 2403, 
+        "time_zone": null, 
+        "url": null, 
+        "utc_offset": null, 
+        "verified": false
+    }
+}
