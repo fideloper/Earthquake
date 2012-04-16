@@ -44,6 +44,8 @@ twit.stream('statuses/filter', {'track':'earthquake'}, function(stream) {
       //Save tweet here (Mongo)
 
       //Trigger socket emission to all
+      // Only send if has geo data.
+      //Bounding box for flag with google api easily?
       io.sockets.emit('tweet', {tweet: data});
     }).on('error', function(err, data) {
       console.log(err, data);

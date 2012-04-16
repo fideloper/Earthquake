@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#gmap {
+	position: absolute;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+}
