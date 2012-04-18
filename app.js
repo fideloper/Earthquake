@@ -13,7 +13,7 @@ var express = require('express')
         access_token_key: '196841165-BWDALPGI7O7hZELR9uBZjHoPc7Ujc6f8HjqPIidC',
         access_token_secret: 'mqNxxaBQX0K1XrMlq28gg4C6hlK4rri38eH1Dvz7A'
     })
-    , tweet = require('./models/tweet');
+    , tweet = require('./models/tweet').Tweet();
 
 var app = module.exports = express.createServer(),
     io = require('socket.io').listen(app);
@@ -41,12 +41,23 @@ app.configure('production', function(){
 //Twitter Stream On
 twit.stream('statuses/filter', {'track':'earthquake'}, function(stream) {
     stream.on('data', function (data) {
-      //Save tweet here (Mongo)
-
+        //Save tweet here (Mongo)
+        if(tweet.hasLocation(data)) {
+            console.log('First: ', data.place);
+            console.log('First Bounds', tweet.getLocation(data));
+            return;
+        } else if(typeof data.retweeted_status === 'object') {
+            if(tweet.hasLocation(data.retweeted_status)) {
+                console.log('Second: ', data.retweeted_status.place);
+                console.log('Second Bounds', tweet.getLocation(data.retweeted_status));
+                return;
+            }
+        }
+        console.log('no location', data.id_str);
       //Trigger socket emission to all
       // Only send if has geo data.
       //Bounding box for flag with google api easily?
-      io.sockets.emit('tweet', {tweet: data});
+      //io.sockets.emit('tweet', {tweet: data});
     }).on('error', function(err, data) {
       console.log(err, data);
     });
