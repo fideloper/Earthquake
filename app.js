@@ -13,7 +13,7 @@ var express = require('express')
         access_token_key: '196841165-BWDALPGI7O7hZELR9uBZjHoPc7Ujc6f8HjqPIidC',
         access_token_secret: 'mqNxxaBQX0K1XrMlq28gg4C6hlK4rri38eH1Dvz7A'
     })
-    , tweet = require('./models/tweet').Tweet();
+    , Tweet = require('./models/tweet');
 
 var app = module.exports = express.createServer(),
     io = require('socket.io').listen(app);
@@ -38,18 +38,71 @@ app.configure('production', function(){
     app.use(express.errorHandler());
 });
 
+mongoose.connect('mongodb://localhost/earthquake');
+
+var saveTweet = function(data, next) {
+    if(typeof data === 'object') {
+        var tweet = new Tweet({
+            created_at : new Date(Date.parse(data.created_at)),
+            place : {
+                bounding_box : {
+                    coordinates: data.place.bounding_box.coordinates,
+                    location: {
+                        lat: data.location.lat,
+                        lng: data.location.lng
+                    }
+                },
+                country : data.place.country,
+                country_code : data.place.country_code,
+                full_name : data.place.full_name,
+                id : data.place.id,
+                name : data.place.name,
+                place_type: data.place.place_type,
+                url : data.place.url
+            },
+            id_str : data.id_str,
+            retweet_count : data.retweet_count,
+            source : data.source,
+            text : data.text,
+            user : {
+                id_str : data.user.id_str,
+                lang : data.user.lang,
+                location : data.user.location,
+                screen_name : data.user.screen_name,
+                time_zone : data.user.time_zone,
+                utc_offset : data.user.utc_offset
+            }
+        });
+
+        tweet.save(function(err) {
+            if(err) {
+                console.log(err);
+            } else {
+                console.log('saved');
+            }
+        });   
+    }
+}
+
 //Twitter Stream On
 twit.stream('statuses/filter', {'track':'earthquake'}, function(stream) {
+    
+    var tooltweet = new Tweet();
+
     stream.on('data', function (data) {
         //Save tweet here (Mongo)
-        if(tweet.hasLocation(data)) {
-            console.log('First: ', data.place);
-            console.log('First Bounds', tweet.getLocation(data));
+        if(tooltweet.hasLocation(data)) {
+            //console.log('First: ', data.place);
+            //console.log('First Bounds', tooltweet.getLocation(data));
+            data.location = tooltweet.getLocation(data);
+            saveTweet(data);
             return;
         } else if(typeof data.retweeted_status === 'object') {
-            if(tweet.hasLocation(data.retweeted_status)) {
-                console.log('Second: ', data.retweeted_status.place);
-                console.log('Second Bounds', tweet.getLocation(data.retweeted_status));
+            if(tooltweet.hasLocation(data.retweeted_status)) {
+                //console.log('Second: ', data.retweeted_status.place);
+                //console.log('Second Bounds', tooltweet.getLocation(data.retweeted_status));
+                data.retweeted_status.location = tooltweet.getLocation(data.retweeted_status);
+                    saveTweet(data.retweeted_status);
                 return;
             }
         }

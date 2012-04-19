@@ -24,10 +24,14 @@ var mongoose = require('mongoose'),
         }
 
 	TweetSchema = new Schema({
-		created_at : String, //?? { type: Date, default: Date.now } ?
+		created_at : { type: Date, default: Date.now }, //?? { type: Date, default: Date.now } ?
 		place : {
 			bounding_box : {
-				coordinates: Array 
+				coordinates: Array,
+				location: {
+					lat: Number,
+					lng: Number
+				}
 			},
 			country : String,
 			country_code : String,
@@ -53,14 +57,18 @@ var mongoose = require('mongoose'),
 
 	TweetSchema.methods.hasLocation = function hasLocation(tweet) {
 		if(tweet == null) {return false;}
-		return (tweet.place === null) ? false : true;
+		var result = false;
+		if ( tweet.place !== null && tweet.place.country != null ) {
+			result = true;
+		} 
+		return result;
 	}
 
 	TweetSchema.methods.getLocation = function getLocation(tweet) {
 		if(typeof tweet === 'object') {
 			var bounds = _getBoundariesFromMarkers(tweet.place.bounding_box.coordinates[0]);
-			bounds.lat = bounds.S + ((bounds.N - bounds.S)/2);
-			bounds.lng = bounds.W + ((bounds.E - bounds.W)/2);
+			bounds.lng = bounds.S + ((bounds.N - bounds.S)/2);
+			bounds.lat = bounds.W + ((bounds.E - bounds.W)/2);
 			return bounds;
 		}
 		return false;
@@ -68,7 +76,4 @@ var mongoose = require('mongoose'),
 
 
 
-module.exports.Tweet = function() {
-	var Tweet = mongoose.model('Tweet', TweetSchema)
-	return new Tweet();
-}
+module.exports = mongoose.model('Tweet', TweetSchema);
