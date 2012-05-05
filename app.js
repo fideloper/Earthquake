@@ -42,7 +42,7 @@ mongoose.connect('mongodb://localhost/earthquake');
 
 var saveTweet = function(data, next) {
     if(typeof data === 'object') {
-        var tweet = new Tweet({
+        var tweet_data = {
             created_at : new Date(Date.parse(data.created_at)),
             place : {
                 bounding_box : {
@@ -72,13 +72,17 @@ var saveTweet = function(data, next) {
                 time_zone : data.user.time_zone,
                 utc_offset : data.user.utc_offset
             }
-        });
+        };
+        
+        var tweet = new Tweet(tweet_data);
 
         tweet.save(function(err) {
             if(err) {
                 console.log(err);
+                next(err, false);
             } else {
                 console.log('saved');
+                next(false, tweet_data);
             }
         });   
     }
@@ -95,14 +99,23 @@ twit.stream('statuses/filter', {'track':'earthquake'}, function(stream) {
             //console.log('First: ', data.place);
             //console.log('First Bounds', tooltweet.getLocation(data));
             data.location = tooltweet.getLocation(data);
-            saveTweet(data);
+            saveTweet(data,function(err, tweet_data) {
+                if(err === false) {
+                    io.sockets.emit('tweet', tweet_data);
+                }
+            });
+            
             return;
         } else if(typeof data.retweeted_status === 'object') {
             if(tooltweet.hasLocation(data.retweeted_status)) {
                 //console.log('Second: ', data.retweeted_status.place);
                 //console.log('Second Bounds', tooltweet.getLocation(data.retweeted_status));
                 data.retweeted_status.location = tooltweet.getLocation(data.retweeted_status);
-                    saveTweet(data.retweeted_status);
+                saveTweet(data.retweeted_status,function(err, tweet_data) {
+                    if(err === false) {
+                        io.sockets.emit('tweet', tweet_data);
+                    }
+                });
                 return;
             }
         }

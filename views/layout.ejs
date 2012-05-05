@@ -17,7 +17,7 @@
           
           socket.on('tweet', function (data) {
               console.log(data);
-              //gmap.gMap("addMarker", {latitude: parseFloat(data.lat), longitude: parseFloat(data.lng)});
+              gmap.gMap("addMarker", {latitude: parseFloat(data.place.bounding_box.location.lat), longitude: parseFloat(data.place.bounding_box.location.lng)});
           });
       });
 
